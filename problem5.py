@@ -41,4 +41,4 @@ c = math.sqrt(c)
 if x == int(x) and b == int(b) and c == int(c):
     print("the equation can be factored")
 else:
-    print("the equation cannot be factored")
+    print("the equation can not be factored")
