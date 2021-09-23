@@ -20,7 +20,6 @@ the sentence contains password
 """
 sentence = str( input("Enter a sentence: "))
 if "password" in sentence:
-    print("the sentence contains passsword")
+    print("the sentence contains password")
 else:
     print("the sentence does not contain password")
-    
