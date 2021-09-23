@@ -32,14 +32,14 @@ Enter a number: 10000
 
 """
 
-x = int(input("Enter a number: "))
-if x >= 1000:
+number = int(input("Enter a number: "))
+if number >= 1000:
     print("3")
-elif x >= 100:
+elif number >= 100:
     print("2")
-elif x >= 10:
+elif number >= 10:
     print("1")
-elif x >= 0:
+elif number >= 0:
     print("0")
-elif x <= 0:
+elif number <= 0:
     print("0")
