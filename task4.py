@@ -18,9 +18,9 @@ the sentence does not contain password
 Enter a sentence: The best password is no password.
 the sentence contains password
 """
-password = str(input("Enter a sentence: "))
-password == True
-if password == True:
-    print("the sentence contains password")
-elif password == False:
+sentence = str( input("Enter a sentence: "))
+if "password" in sentence:
+    print("the sentence contains passsword")
+else:
     print("the sentence does not contain password")
+    
