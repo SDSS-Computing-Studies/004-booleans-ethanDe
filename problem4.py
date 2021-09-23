@@ -39,13 +39,15 @@ import math
 first = float(input("Enter first side: "))
 second = float(input("Enter second side: "))
 third = float(input("Enter third side: "))
-
+first = round(first)
+second = round(second)
+third = round(third)
 list1 = [first, second, third]
 list1.sort()
 hypotenuse = list1[-1]
 sidea = list1[-2]
 sideb = list1[-3]
-
+print(sidea**2, sideb**2, hypotenuse**2)
 if (sidea**2)+(sideb**2) == (hypotenuse**2):
     print("that is a right triangle")
 elif (sidea**2)+(sideb**2) < (hypotenuse**2):
