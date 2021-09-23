@@ -32,12 +32,14 @@ Enter a number: 10000
 
 """
 
-x = float(input("Enter a number: "))
+x = int(input("Enter a number: "))
 if x >= 1000:
-    print("The number is equal to 1000 or is larger than 1000")
+    print("3")
 elif x >= 100:
-    print("The number is 100 or a number up to 1000")
+    print("2")
 elif x >= 10:
-    print("The number is 10 or a number up to 100")
+    print("1")
 elif x >= 0:
-    print("The number is 0 or a number up to 10")
+    print("0")
+elif x <= 0:
+    print("0")
