@@ -29,3 +29,16 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+import math
+
+x = float(input("Enter x: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+x = math.sqrt(x)
+b = math.sqrt(b)
+c = math.sqrt(c)
+if x == int(x) and b == int(b) and c == int(c):
+    print("the equation can be factored")
+else:
+    print("the equation cannot be factored")
