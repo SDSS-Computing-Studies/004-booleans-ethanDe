@@ -35,10 +35,9 @@ import math
 x = float(input("Enter x: "))
 b = float(input("Enter b: "))
 c = float(input("Enter c: "))
-x = math.sqrt(x)
-b = math.sqrt(b)
-c = math.sqrt(c)
-if x == int(x) and b == int(b) and c == int(c):
-    print("the equation can be factored")
+
+disc = (b**2) - 4 * x * c
+if disc != 0:
+    print("the equation cannot be factored")
 else:
-    print("the equation can not be factored")
+    print("the equation can be factored")
