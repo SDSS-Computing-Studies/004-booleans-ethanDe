@@ -38,6 +38,6 @@ c = float(input("Enter c: "))
 
 disc = (b**2) - 4 * x * c
 if disc != 0:
-    print("the equation cannot be factored")
+    print("the equation can not be factored")
 else:
     print("the equation can be factored")
